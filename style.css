@@ -1,0 +1,14 @@
+#display {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    animation-name: display;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes display {
+    from {right: 0px;}
+    to {right: 50px;}
+} 
